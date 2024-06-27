@@ -1,6 +1,6 @@
 name: 问题反馈
 description: 当你在代码中发现了一个Bug，导致网站崩溃或无法正常显示运行，或者有一个组件存在问题，或者某些地方看起来不对劲。
-title: "[问题反馈] "
+title: "[问题反馈] 请在此输入标题"
 labels: [ "bug" ]
 body:
   - type: markdown
