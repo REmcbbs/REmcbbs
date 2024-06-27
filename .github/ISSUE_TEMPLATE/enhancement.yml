@@ -1,0 +1,43 @@
+name: 功能建议
+description: 对REmcbbs提出一个功能建议
+title: "[功能建议] "
+labels: [ "enhancement" ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提出功能建议，我们将仔细考虑！
+  - type: textarea
+    id: enhancement
+    attributes:
+      label: 你希望得到什么功能？
+      description: 清晰并简洁地描述你希望被采纳的功能。
+    validations:
+      required: true
+  - type: textarea
+    id: related-problem
+    attributes:
+      label: 你的功能建议是否和某个问题相关？（可选）
+      description: 清晰并简洁地描述问题是什么，例如，当我...时，我总是感到困扰，或指向一个已有的Issue。
+    validations:
+      required: false
+  - type: textarea
+    id: solutions
+    attributes:
+      label: 你是否有对此问题的解决方案？（可选）
+      description: 清晰并简洁地描述你想到的任何的解决方案。
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 你有其他的补充或截图吗？（可选）
+      description: 在此处添加有关功能请求的任何其他的补充或截图。
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: 意向参与贡献
+      options:
+        - label: 我有意向参与具体功能的开发实现并将代码贡献回到上游社区
+          required: false
